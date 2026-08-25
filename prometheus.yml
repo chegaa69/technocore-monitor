@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 30s
+
+scrape_configs:
+  - job_name: technocore
+    static_configs:
+      - targets: ["technocore-monitor:9184"]
